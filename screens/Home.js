@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { SafeAreaView, Text, View, StyleSheet, SafeAreaView, TouchableOpacity, Platform, StatusBar, ImageBackground, Image } from 'react-native';
+import { SafeAreaView, Text, View, StyleSheet, TouchableOpacity, Platform, StatusBar, ImageBackground, Image } from 'react-native';
 
 export default class HomeScreen extends Component {
     render() {
@@ -11,7 +11,7 @@ export default class HomeScreen extends Component {
                     alignItems: "center"
                 }}>
                     <SafeAreaView styles={styles.androidSafeArea}/>
-                    <ImageBackground source={require('../assets/bg.png')} style={styles.backgroundImage}>
+                    <ImageBackground source={require('../assets/bg_image.png')} style={styles.backgroundImage}>
                     <View style={styles.titleBar}>
                     <Text style={styles.titleText}>ISS Tracker App</Text>
                     </View>
